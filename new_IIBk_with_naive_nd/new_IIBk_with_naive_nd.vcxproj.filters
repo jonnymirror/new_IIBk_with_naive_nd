@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ソース.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="iceland.txt" />
+    <Text Include="iceland_threshold.txt" />
+    <Text Include="Zackary_karate_club.txt" />
+    <Text Include="Zackary_karate_club_threshold.txt" />
+    <Text Include="contiguous_USA.txt" />
+    <Text Include="contiguous_USA_threshold.txt" />
+    <Text Include="Cities.txt" />
+    <Text Include="Cities_threshold.txt" />
+    <Text Include="moreno_beach.txt" />
+    <Text Include="moreno_beach_threshold.txt" />
+    <Text Include="chesapeake_bay.txt" />
+    <Text Include="chesapeake_bay_threshold.txt" />
+    <Text Include="chesapeake_bay_threshold2.txt" />
+    <Text Include="zebra.txt" />
+    <Text Include="zebra_threshold.txt" />
+    <Text Include="kangaroos.txt" />
+    <Text Include="kangaroos_threshold.txt" />
+    <Text Include="johnson8-2-4.txt" />
+    <Text Include="johnson8-2-4_threshold.txt" />
+    <Text Include="GD01_c.txt" />
+    <Text Include="GD01_c_threshold1.txt" />
+    <Text Include="GD01_c_threshold2.txt" />
+    <Text Include="GD01_c_threshold3.txt" />
+    <Text Include="GD01_c_threshold4.txt" />
+    <Text Include="moreno_cattle.txt" />
+    <Text Include="moreno_cattle_threshold.txt" />
+    <Text Include="league-be1-2016.txt" />
+    <Text Include="league-be1-2016-threshold.txt" />
+    <Text Include="moreno_sheep.txt" />
+    <Text Include="moreno_sheep_threshold.txt" />
+    <Text Include="moreno_bison.txt" />
+    <Text Include="moreno_bison_threshold.txt" />
+    <Text Include="moreno_seventh.txt" />
+    <Text Include="moreno_seventh_threshold.txt" />
+    <Text Include="moreno_hens.txt" />
+    <Text Include="moreno_hens_threshold.txt" />
+    <Text Include="moreno_mac.txt" />
+    <Text Include="moreno_mac_threshold.txt" />
+    <Text Include="moreno_sampson.txt" />
+    <Text Include="moreno_sampson_threshold.txt" />
+    <Text Include="50_complete_graph.txt" />
+    <Text Include="50_complete_graph_threshold.txt" />
+    <Text Include="50_complete_graph_all0.txt" />
+    <Text Include="100_complete_graph.txt" />
+    <Text Include="100_complete_graph_threshold.txt" />
+    <Text Include="100_complete_graph_all0.txt" />
+    <Text Include="johnson8-4-4.txt" />
+    <Text Include="johnson8-4-4_threshold.txt" />
+  </ItemGroup>
+</Project>
