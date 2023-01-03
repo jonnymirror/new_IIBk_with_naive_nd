@@ -261,14 +261,16 @@ void overlapping_combination(long long int s, long long int t) {
 		//cout << "false‚Å‚·.aaaaaaaaaa" << endl;
 		return;
 	}
-	if (s == nd && t != 0) {
-		//cout << "false‚Å‚·.bbbbbbbbbb" << endl;
-		return;
+	if (s == nd - 1) {
+		A[s] = t;
+		overlapping_combination(s + 1, 0);
 	}
-	for (long long int i = 0; i <= t; i++) {
-		//cout << "i=" << i << endl;
-		A[s] = i;
-		overlapping_combination(s + 1, t - i);
+	else {
+		for (long long int i = 0; i <= t; i++) {
+			//cout << "i=" << i << endl;
+			A[s] = i;
+			overlapping_combination(s + 1, t - i);
+		}
 	}
 	return;
 }
